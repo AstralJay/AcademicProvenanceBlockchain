@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Supervisor Dashboard</title>
+</head>
+
+<body>
+
+    <h1>Supervisor Dashboard</h1>
+
+    <h2>Welcome, {{ name }}</h2>
+
+    <p>
+        You are logged in as a Supervisor.
+    </p>
+
+    <hr>
+
+    <h3>Assigned Projects</h3>
+
+    <p>
+        Project review will be added later.
+    </p>
+
+    <br>
+
+    <a href="{{ url_for('auth.logout') }}">
+        Logout
+    </a>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Dashboard</title>
+</head>
+
+<body>
+
+    <h1>Student Dashboard</h1>
+
+    <h2>Welcome, {{ name }}</h2>
+
+    <p>
+        You are logged in as a Student.
+    </p>
+
+    <hr>
+
+    <h3>My Projects</h3>
+
+    <p>
+        Project management will be added in Phase 4.
+    </p>
+
+    <br>
+
+    <a href="{{ url_for('auth.logout') }}">
+        Logout
+    </a>
+
+</body>
+
+</html>

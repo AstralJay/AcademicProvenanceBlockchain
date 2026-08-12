@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+
+    <h1>Admin Dashboard</h1>
+
+    <h2>Welcome, {{ name }}</h2>
+
+    <p>
+        You are logged in as an Administrator.
+    </p>
+
+    <hr>
+
+    <h3>System Administration</h3>
+
+    <p>
+        Authority management and blockchain monitoring
+        will be added later.
+    </p>
+
+    <br>
+
+    <a href="{{ url_for('auth.logout') }}">
+        Logout
+    </a>
+
+</body>
+
+</html>
